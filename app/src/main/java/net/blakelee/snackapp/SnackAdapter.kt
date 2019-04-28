@@ -43,7 +43,6 @@ class SnackAdapter(private val vm: SnackViewModel) : RecyclerView.Adapter<SnackA
             checkbox.isChecked = vm.isSnackSelected(snack)
             checkbox.setOnCheckedChangeListener { _, checked ->
                 vm.toggleSnack(snack, checked)
-
             }
         }
     }

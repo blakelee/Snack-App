@@ -80,6 +80,7 @@ class SnackActivity : AppCompatActivity() {
 
         val dialog = builder.setView(view)
             .setPositiveButton(R.string.save, null)
+            .setNegativeButton(android.R.string.cancel, null)
             .create()
 
         dialog.setOnShowListener {
