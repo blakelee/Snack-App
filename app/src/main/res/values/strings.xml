@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Snack App</string>
+    
+    <string name="veggie">Veggie</string>
+    <string name="non_veggie">Non-Veggie</string>
+    <string name="add">add</string>
+    <string name="add_snack">Add a snack</string>
+    <string name="add_snack_error">Text field must contain text</string>
+    <string name="summary">Summary</string>
+    <string name="summary_empty">No items selected</string>
+    <string name="save">Save</string>
+</resources>
